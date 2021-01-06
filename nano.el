@@ -55,16 +55,16 @@
 (nano-theme)
 
 ;; Nano default settings (optional)
-(require 'nano-defaults)
+;; (require 'nano-defaults)
 
 ;; Nano session saving (optional)
-(require 'nano-session)
+;; (require 'nano-session)
 
 ;; Nano header & mode lines (optional)
-(require 'nano-modeline)
+;; (require 'nano-modeline)
 
 ;; Nano key bindings modification (optional)
-(require 'nano-bindings)
+;; (require 'nano-bindings)
 
 ;; Nano counsel configuration (optional)
 ;; Needs "counsel" package to be installed (M-x: package-install)
