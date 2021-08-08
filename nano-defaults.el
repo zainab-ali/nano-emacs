@@ -108,11 +108,12 @@
 (pixel-scroll-mode t)
 
 ;; Mac specific
+;; Assuming we're using the external USB keyboard
 (setq ns-use-native-fullscreen t
-      mac-option-key-is-meta nil
-      mac-command-key-is-meta t
-      mac-command-modifier 'meta
-      mac-option-modifier 'super
+      mac-option-key-is-meta t
+      mac-command-key-is-meta nil
+      mac-command-modifier 'super
+      mac-option-modifier 'meta
       mac-use-title-bar nil)
 
 ;; Make sure clipboard works properly in tty mode on OSX
