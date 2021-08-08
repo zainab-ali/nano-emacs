@@ -158,8 +158,8 @@
       uniquify-ignore-buffers-re "^\\*")
 
 ;; Default shell in term
-(setq-default shell-file-name "/bin/zsh")
-(setq explicit-shell-file-name "/bin/zsh")
+;; (setq-default shell-file-name "/bin/zsh")
+;; (setq explicit-shell-file-name "/bin/zsh")
 
 ;; Kill term buffer when exiting
 (defadvice term-sentinel (around my-advice-term-sentinel (proc msg))
